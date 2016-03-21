@@ -14,6 +14,8 @@
  [:files :lt.objs.files/file-types [{:exts [:js], :mime "text/javascript", :tags [:editor.javascript], :name "Javascript"}
                                     {:exts [:json], :mime "application/json", :tags [:editor.javascript :editor.json], :name "JSON"}]]
 
+ [:files :lt.objs.files/file-types [{:exts [:jsx], :mime "text/jsx", :tags [:editor.jsx], :name "JSX"}]]
+
  [:nodejs.client :lt.plugins.js.node/init-debugger!]
  [:nodejs.client :lt.plugins.js.node/start-debugger!]
  [:nodejs.client :lt.plugins.js.node/connect-success]

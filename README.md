@@ -1,4 +1,4 @@
-##JavaScript for Light Table
+##JavaScript (+ JSX) for Light Table
 
 The official JavaScript language plugin for Light Table.
 
@@ -9,7 +9,7 @@ The official JavaScript language plugin for Light Table.
 
     curl https://raw.githubusercontent.com/codemirror/CodeMirror/$VERSION/mode/javascript/javascript.js > codemirror/javascript.js
 
-  `javascript.js` is currently on CodeMirror version 4.8.0.
+  `javascript.js` is currently on CodeMirror version 5.12.0.
 * We rely on acorn for parsing JS. See [its readme](https://github.com/ternjs/acorn#main-parser) for
   several parsing options
 
